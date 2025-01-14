@@ -15,3 +15,11 @@
 ## use .race() to handle first promise to resolve
 ## use .any() to handle first promise to resolve
 ## use .allSettled() to handle all promises to settle
+
+
+# STATES:
+
+## Pending- Initial State
+## Fulfilled- Success State
+## Rejected- Failure State
+
