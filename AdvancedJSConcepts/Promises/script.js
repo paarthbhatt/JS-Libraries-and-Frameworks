@@ -11,15 +11,13 @@ const myPromise = new Promise((resolve, reject) => {
 
 function fetchUserData(userId) {
     return new Promise((resolve, reject) => {
-        // Fetch user data from the server
-        // If successful, resolve with the user data
-        // If unsuccessful, reject with an error
-        setTimeout() => {
+        setTimeout(() => {  // Fixed: Added parentheses after setTimeout
             const user = { id: userId, name: "John Doe" };
             if (user) {
-            resolve(user);
-        } else {
-            reject("User not found");
-        }
-    }, 1000);
-});
+                resolve(user);  // Fixed: Proper indentation
+            } else {
+                reject("User not found");
+            }
+        }, 1000);
+    });  // Fixed: Added missing closing parenthesis
+}
