@@ -67,5 +67,19 @@ class Person {
     }
 }                                                   //ES6
 
+// Promises
+
+orderPizza()
+    .then(pizza ==> {
+        console.log("yay, i got me a pizza")
+    })
+    .catch(error => {
+        console.log("oh no, i have no pizza")
+    });
+
+// Modules
+
+export const helper = () => {...Person.name.replace.}
+import {helper} from './helper.js';
 
 
