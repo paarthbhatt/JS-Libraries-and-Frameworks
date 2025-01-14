@@ -82,4 +82,19 @@ orderPizza()
 export const helper = () => {...Person.name.replace.}
 import {helper} from './helper.js';
 
+// Spread / Rest Operator
 
+const numbers = [1, 2, 3, 4, 5];
+const morenums = [...numbers, 6, 7, 8];
+
+const [first, second, ...others] = numbers;
+
+// Key benefits of ES6:-
+
+// ==> More concise and readable code
+// ==> Better scoping with let and const
+// ==> Enhanced object literals improved string manipulation
+// ==> Simpler function syntax with arrow functions
+// ==> Better object and array manipulation
+// ==> Native promises and modules support
+// ==> Promises for async operations
