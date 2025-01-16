@@ -1,20 +1,16 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 
 const page = () => {
-  let marks = 89
-  const changeMarks = () => {
-    console.log(marks)
-    marks = 33
-    console.log(marks)
-  }
+  const [marks, setmarks] = useState(80)
+
   return (
     <>
-      <h1 className='font-bold text-xl text-black'>My total marks were {marks}</h1>
+      <h1>My marks were {marks}</h1>
       <button onClick={() => {
-        changeMarks();
-      }
-      } className='bg-gray-400 px-5 py-3 rounded mt-5 text-white font-bold'>Update</button>
+        setmarks(50)
+      }}>Update</button>
+      
     </>
   )
 }
