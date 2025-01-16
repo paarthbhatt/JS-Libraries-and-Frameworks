@@ -1,13 +1,12 @@
 "use client"
-import React , { useState } from 'react'
-const page = () => {
+import React, { useState } from 'react' 
+
+const Page = () => {  
   return (
     <div>
-      <a href='about'>About</a>
-      <a href=''>Product</a>
-      <a href=''>Course</a>
-    </div>
+      <h1>This is Home Page</h1>
+    </div>  
   )
 }
 
-export default page
+export default Page 
