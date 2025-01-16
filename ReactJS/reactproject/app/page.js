@@ -1,8 +1,9 @@
 import React from 'react'
 
 const page = () => {
+  const a = 10
   return (
-    <div>Hello, How are you buddy?</div>
+    <div>{a}</div>
   )
 }
 
